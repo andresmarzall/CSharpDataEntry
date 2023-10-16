@@ -10,12 +10,11 @@ namespace TestProject
     public class UnitTestAddEntry
     {
         [TestMethod]
-
-      // Create an instance of UserRepository
+        
 
         public void TestAddUser_NoExceptions()
         {
-            // Crear una instancia de UserRepository
+            // Create an instance of UserRepository
             var userRepository = new UserRepository();
 
             // Create a new user with test data
@@ -25,7 +24,7 @@ namespace TestProject
                 LastName = "Martinez",
                 Age = 32,
                 Email = "brianmarti@gmail.com.com",
-                Password = "contraseña123456"
+                Password = "contraseÃ±a123456"
             };
 
             // Call the Add method in UserRepository
